@@ -2,7 +2,7 @@ import requests
 import json
 import pandas as pd
 from jokeapi import Jokes # Import the Jokes class
-import asyncio
+
 
 def joking():
     joke=requests.get("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,racist,sexist,explicit")
